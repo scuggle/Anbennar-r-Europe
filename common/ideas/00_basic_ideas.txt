@@ -184,7 +184,7 @@ adventurer_ideas_vaass = { # Adventurer Ideas
 		possible_condottieri = 0.5
 	}
 	adven_ide6 = {
-		mercenary_manpower = 0.25
+		mercenary_manpower = 0.3
 	}
 	adven_ide7 = {
 		allow_mercenary_drill = yes

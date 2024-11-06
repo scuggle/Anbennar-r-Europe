@@ -10,7 +10,7 @@ merc_cave_harpies = {
 	cost_modifier = 0.8
 	modifier = {
 		shock_damage_received = -0.15
-		shock_damage = 0.1
+		shock_damage = 0.2
 		may_recruit_female_generals = yes
 		female_advisor_chance = 1.0
 	}
