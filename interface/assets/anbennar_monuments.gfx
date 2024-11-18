@@ -33,6 +33,20 @@ objectTypes = {
 	}
     
 	pdxmesh = {
+
+		name = "feyPortal_mesh"
+
+		file = "gfx/models/anbennar/monuments/feyPortal.mesh"
+
+		scale = 2.00
+
+		
+
+		animation = { id = "idle" type = "feyPortal_entity_idle" }
+
+	}
+	
+	pdxmesh = {
 		name = "white_walls_mesh"
 		file = "gfx/models/anbennar/monuments/White_Walls.mesh"
 		scale = 1.00
