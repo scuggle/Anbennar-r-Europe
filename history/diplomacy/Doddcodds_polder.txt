@@ -1,0 +1,19 @@
+# Alliance Group 1
+vassal = {	#doddcodds and golkadas
+	first = EC9
+	second = ED0
+	start_date = 1444.1.1
+	end_date = 1644.4.22
+}
+vassal = {	#doddcodds and erashyn
+	first = EC9
+	second = ED1
+	start_date = 1444.1.1
+	end_date = 1644.4.22
+}
+vassal = {	#doddcodds and kathynsek
+	first = EC9
+	second = ED2
+	start_date = 1444.1.1
+	end_date = 1644.4.22
+}
