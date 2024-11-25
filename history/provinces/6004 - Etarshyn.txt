@@ -1,6 +1,6 @@
-owner = L81
-controller = L81
-add_core = L81
+owner = ED1
+controller = ED1
+add_core = ED1
 culture = mashkay_lizardfolk
 religion = anzalkatsa
 

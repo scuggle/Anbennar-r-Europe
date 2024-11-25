@@ -223,20 +223,20 @@ province_event = {
 	}
 	mean_time_to_happen = {
 		years = 50
-		modifier = {
-			factor = 0.75
-			num_of_neighbor_province = {
-				value = 2
-				has_province_modifier = port_road_modifier	
-			}
-		}
-		modifier = {
-			factor = 0.666
-			num_of_neighbor_province = {
-				value = 3
-				has_province_modifier = port_road_modifier
-			}
-		}
+		#modifier = {
+			#factor = 0.75
+			#num_of_neighbor_province = {
+				#value = 2
+				#has_province_modifier = port_road_modifier	
+			#}
+		#}
+		#modifier = {
+			#factor = 0.666
+			#num_of_neighbor_province = {
+				#value = 3
+				#has_province_modifier = port_road_modifier
+			#}
+		#}
 	}
 	option = {
 		name = port_flavour_events.3.a 
