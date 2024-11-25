@@ -2786,7 +2786,10 @@ Z54_4_1 = {
                     has_building = mage_tower
                 }
                 capital_scope = {
-                    has_production_building_trigger = yes
+                    OR = {
+                        has_production_building_trigger = yes
+                        trade_goods = gold
+                    }
                     has_building = mage_tower
                 }
             }
@@ -2801,7 +2804,10 @@ Z54_4_1 = {
                     has_production_building_trigger = yes
                 }
                 capital_scope = {
-                    has_production_building_trigger = yes
+                    OR = {
+                        has_production_building_trigger = yes
+                        trade_goods = gold
+                    }
                 }
                 num_artifice_inventions_discovered = {
                     VAL = 5
@@ -2818,7 +2824,10 @@ Z54_4_1 = {
                     has_production_building_trigger = yes
                 }
                 capital_scope = {
-                    has_production_building_trigger = yes
+                    OR = {
+                        has_production_building_trigger = yes
+                        trade_goods = gold
+                    }
                 }
                 check_variable = {
                     which = centralize_state_counter
