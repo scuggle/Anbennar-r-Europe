@@ -3566,7 +3566,8 @@ artifice_invention_prototype_tanks = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		cavalry_fire = 1.5
+		cavalry_fire = 2
+		cavalry_shock = -1
 		tec_brilliance_influence = 0.04
 	}
 	ai_will_do = {
