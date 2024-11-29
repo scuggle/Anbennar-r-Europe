@@ -92,11 +92,11 @@ economic_tellumm_1 = {
 }
 
 economic_tellumm_2 = {
-	development_cost = -0.075
+	development_cost = -0.05
 }
 
 economic_tellumm_3 = {
-	development_cost_modifier = -0.05
+	development_cost_modifier = -0.025
 }
 
 trade_tellumm_1 = {
@@ -196,7 +196,7 @@ military_mutagen_5 = {
 #Expansion Mutagens
 
 expansion_mutagen_1 = {
-	development_cost = -0.05
+	development_cost = -0.025
 }
 expansion_mutagen_2 = {
 	administrative_efficiency = 0.025
