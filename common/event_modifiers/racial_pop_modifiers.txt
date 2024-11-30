@@ -394,7 +394,7 @@ dwarven_minority_coexisting_small = {
 	local_state_maintenance_modifier = 0.1
 	
 	local_fort_maintenance_modifier = -0.075
-	local_build_cost = -0.05					#dwarven builders
+	local_build_cost = -0.0375					#dwarven builders
 	picture = "pop_icon_dwarf_sa"
 }
 dwarven_minority_coexisting_large = {
@@ -402,7 +402,7 @@ dwarven_minority_coexisting_large = {
 	local_state_maintenance_modifier = 0.25
 	
 	local_fort_maintenance_modifier = -0.15
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	picture = "pop_icon_dwarf_la"
 }
 
@@ -411,7 +411,7 @@ dwarven_minority_integrated_small = {
 	local_autonomy = 0.01
 	
 	local_fort_maintenance_modifier = -0.075
-	local_build_cost = -0.05
+	local_build_cost = -0.0375
 	trade_goods_size_modifier = 0.05		
 	picture = "pop_icon_dwarf_si"
 }
@@ -421,7 +421,7 @@ dwarven_minority_integrated_large = {
 	local_autonomy = 0.025
 	
 	local_fort_maintenance_modifier = -0.15
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	trade_goods_size_modifier = 0.1		#More dwarves allow some to focus on their craft in addition to manual labour
 	picture = "pop_icon_dwarf_li"
 }
@@ -439,7 +439,7 @@ dwarven_majority_oppressed = {
 dwarven_majority_coexisting = {
 	
 	local_fort_maintenance_modifier = -0.15
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	
 	picture = "pop_icon_dwarf_ma"
 }
@@ -447,7 +447,7 @@ dwarven_majority_coexisting = {
 dwarven_majority_integrated = {
 	
 	local_fort_maintenance_modifier = -0.15
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	trade_goods_size_modifier = 0.1			#More dwarves allow some to focus on their craft in addition to manual labour
 	
 	local_missionary_strength = 0.01
@@ -458,7 +458,7 @@ dwarven_majority_integrated = {
 dwarven_majority_primary = {
 	
 	local_fort_maintenance_modifier = -0.15
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	trade_goods_size_modifier = 0.1	
 	local_missionary_strength = 0.01
 	
@@ -940,14 +940,14 @@ half_elven_majority_primary = {
 ruinborn_minority_oppressed_small = {
 	local_unrest = 1
 	
-	local_build_cost = -0.05		#cheap labour
+	local_build_cost = -0.0375		#cheap labour
 	picture = "pop_icon_ruinborn_so"
 }
 
 ruinborn_minority_oppressed_large = {
 	local_unrest = 2
 	
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	picture = "pop_icon_ruinborn_lo"
 }
 
@@ -955,7 +955,7 @@ ruinborn_minority_coexisting_small = {
 	local_unrest = 1
 	local_state_maintenance_modifier = 0.1
 	
-	local_build_cost = -0.05
+	local_build_cost = -0.0375
 	supply_limit_modifier = 0.2
 	picture = "pop_icon_ruinborn_sa"
 }
@@ -964,7 +964,7 @@ ruinborn_minority_coexisting_large = {
 	local_unrest = 2
 	local_state_maintenance_modifier = 0.25
 	
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	supply_limit_modifier = 0.4
 	picture = "pop_icon_ruinborn_la"
 }
@@ -973,7 +973,7 @@ ruinborn_minority_integrated_small = {
 	local_state_maintenance_modifier = 0.3
 	local_autonomy = 0.01
 	
-	local_build_cost = -0.05
+	local_build_cost = -0.0375
 	supply_limit_modifier = 0.2
 	local_monthly_devastation = -0.05
 	picture = "pop_icon_ruinborn_si"
@@ -983,7 +983,7 @@ ruinborn_minority_integrated_large = {
 	local_state_maintenance_modifier = 0.5
 	local_autonomy = 0.025
 	
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	supply_limit_modifier = 0.4
 	local_monthly_devastation = -0.1
 	picture = "pop_icon_ruinborn_li"
@@ -992,7 +992,7 @@ ruinborn_minority_integrated_large = {
 #Ruinborn Elf Majority - will never happen but sure
 ruinborn_majority_oppressed = {
 	
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	
 	local_culture_conversion_cost = -0.25
 	local_culture_conversion_time = -0.25
@@ -1001,7 +1001,7 @@ ruinborn_majority_oppressed = {
 
 ruinborn_majority_coexisting = {
 	
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	supply_limit_modifier = 0.4
 	
 	picture = "pop_icon_ruinborn_ma"
@@ -1009,7 +1009,7 @@ ruinborn_majority_coexisting = {
 
 ruinborn_majority_integrated = {
 
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	supply_limit_modifier = 0.4
 	local_monthly_devastation = -0.1
 	
@@ -1020,7 +1020,7 @@ ruinborn_majority_integrated = {
 
 ruinborn_majority_primary = {
 
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	supply_limit_modifier = 0.4
 	local_monthly_devastation = -0.1
 	local_missionary_strength = 0.01
@@ -1064,7 +1064,7 @@ orcish_minority_coexisting_large = {
 	local_state_maintenance_modifier = 0.25
 	
 	trade_goods_size_modifier = 0.1
-	local_manpower_modifier = 0.2
+	local_manpower_modifier = 0.15
 	picture = "pop_icon_orc_la"
 }
 
@@ -1083,7 +1083,7 @@ orcish_minority_integrated_large = {
 	local_autonomy = 0.025
 	
 	trade_goods_size_modifier = 0.1
-	local_manpower_modifier = 0.2
+	local_manpower_modifier = 0.15
 	local_regiment_cost = -0.2
 	picture = "pop_icon_orc_li"
 }
@@ -1132,14 +1132,14 @@ orcish_majority_primary = {
 kobold_minority_oppressed_small = {
 	local_unrest = 1
 	
-	local_build_cost = -0.1				#Cheap manual labour
+	local_build_cost = -0.05			#Cheap manual labour
 	picture = "pop_icon_kobold_so"
 }
 
 kobold_minority_oppressed_large = {
 	local_unrest = 2
 	
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	regiment_recruit_speed = -0.2
 	picture = "pop_icon_kobold_lo"
 }
@@ -1148,7 +1148,7 @@ kobold_minority_coexisting_small = {
 	local_unrest = 1
 	local_state_maintenance_modifier = 0.1
 	
-	local_build_cost = -0.1
+	local_build_cost = -0.05
 	regiment_recruit_speed = -0.1
 	picture = "pop_icon_kobold_sa"
 }
@@ -1157,7 +1157,7 @@ kobold_minority_coexisting_large = {
 	local_unrest = 2
 	local_state_maintenance_modifier = 0.25
 	
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	regiment_recruit_speed = -0.2
 	local_hostile_attrition = 0.5
 	picture = "pop_icon_kobold_la"
@@ -1167,7 +1167,7 @@ kobold_minority_integrated_small = {
 	local_state_maintenance_modifier = 0.3
 	local_autonomy = 0.01
 	
-	local_build_cost = -0.1
+	local_build_cost = -0.05
 	regiment_recruit_speed = -0.1
 	local_hostile_attrition = 1		#Kobolds can now coexist and can defend provinces
 	picture = "pop_icon_kobold_si"
@@ -1177,7 +1177,7 @@ kobold_minority_integrated_large = {
 	local_state_maintenance_modifier = 0.5
 	local_autonomy = 0.025
 	
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	regiment_recruit_speed = -0.2
 	local_hostile_attrition = 2
 	picture = "pop_icon_kobold_li"
@@ -1186,7 +1186,7 @@ kobold_minority_integrated_large = {
 #Kobold Majority
 kobold_majority_oppressed = {
 	
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	
 	local_culture_conversion_cost = -0.25
 	local_culture_conversion_time = -0.25
@@ -1195,7 +1195,7 @@ kobold_majority_oppressed = {
 
 kobold_majority_coexisting = {
 	
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	regiment_recruit_speed = -0.2
 	
 	picture = "pop_icon_kobold_ma"
@@ -1203,7 +1203,7 @@ kobold_majority_coexisting = {
 
 kobold_majority_integrated = {
 
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	regiment_recruit_speed = -0.2
 	local_hostile_attrition = 2
 	
@@ -1214,7 +1214,7 @@ kobold_majority_integrated = {
 
 kobold_majority_primary = {
 
-	local_build_cost = -0.1
+	local_build_cost = -0.075
 	regiment_recruit_speed = -0.2
 	local_hostile_attrition = 2
 	local_missionary_strength = 0.01
