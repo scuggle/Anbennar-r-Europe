@@ -140,7 +140,7 @@ eur_colonial_act = {
 		
 		}
     }
-	colonist_placement_chance = 0.2
+	colonist_placement_chance = 0.05
 	global_colonial_growth = 25
 	global_tariffs = 0.05
 	
