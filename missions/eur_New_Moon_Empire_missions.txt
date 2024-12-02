@@ -818,8 +818,12 @@ tcharialt3 = {
 				    area = dao_nako_coast_area
 				    area = bernalia_area
                     area = dogo_babolo_area
+                    area = grahamia_area
 			    }
-			    value = 12
+                NOT = {
+                    province_id = 6319
+                }
+			    value = 13
 		    }
         }
 
@@ -912,6 +916,13 @@ tcharialt3 = {
                     }
                 }
                 5767 = {
+                    random_list = {
+                        1 = { add_base_tax = 1 }
+                        1 = { add_base_production = 1 }
+                        1 = { add_base_manpower = 1 }
+                    }
+                }
+                5766 = {
                     random_list = {
                         1 = { add_base_tax = 1 }
                         1 = { add_base_production = 1 }
