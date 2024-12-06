@@ -35979,7 +35979,7 @@ B78_ideas = {
 		land_attrition = -0.2
 	}
 	bonus = {
-		improve_relation_modifier = 0.25
+		cavalry_power = 0.15
 	}
 	trigger = {
 		tag = B78 
@@ -35987,22 +35987,24 @@ B78_ideas = {
 	free = yes
 	
 	B78_sleeping_culture = {
-		prestige_decay = -0.015
+		prestige_decay = -0.01
+		culture_conversion_cost = -0.1
 	}
 	B78_circle_deruwren = {
-		advisor_cost = -0.1
+		advisor_cost = -0.15
 	}
 	B78_attalus_carnetoris = {
 		shock_damage = 0.15
+		army_tradition_from_battle = 0.02
 	}
 	B78_old_reign = {
 		monarch_military_power = 1
 	}
 	B78_wood_among_ashes = {
-		build_cost = -0.1
+		build_cost = -0.15
 	}
 	B78_court_of_spirits = {
-		manpower_in_own_culture_provinces = 0.25
+		global_manpower_modifier = 0.20
 	}
 	B78_grovemen_rights = {
 	 	free_policy = 1
