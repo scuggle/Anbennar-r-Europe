@@ -3056,7 +3056,7 @@ country_event = {
 			trade_goods = cloves
 			key = clove_trade
 			
-			value = 0.2
+			value = 0.05
 			duration = -1
 		}
 		hidden_effect = { set_global_flag = cloves_more_expensive }
