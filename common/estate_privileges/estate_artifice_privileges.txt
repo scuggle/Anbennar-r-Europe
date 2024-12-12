@@ -3011,7 +3011,7 @@ artifice_invention_t_wave_transceivers = {
 		#update_artifice_points = yes #is included in the above effect
 	}
 	penalties = {
-		#foo
+		global_trade_power = -0.1
 	}
 	benefits = {
 		artificers_privilege_slots = 1
@@ -3261,7 +3261,7 @@ artifice_invention_artillery_autoloader = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		artillery_power = 0.1
+		artillery_power = 0.075
 		tec_mechanists_influence = 0.06
 	}
 	ai_will_do = {
@@ -3566,8 +3566,7 @@ artifice_invention_prototype_tanks = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		cavalry_fire = 2
-		cavalry_shock = -1
+		cavalry_fire = 1
 		tec_brilliance_influence = 0.04
 	}
 	ai_will_do = {
@@ -3815,7 +3814,7 @@ artifice_invention_magic_missile_deployer = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		shock_damage_received = -0.075
+		shock_damage_received = -0.05
 		tec_technomancy_influence = 0.02
 	}
 	ai_will_do = {
@@ -4243,7 +4242,7 @@ artifice_invention_box_of_holding = {
 		artificers_privilege_slots = 1
 		#bonuses in paper provinces?
 		global_tariffs = 0.1
-		treasure_fleet_income = 0.1
+		treasure_fleet_income = 0.2
 		tec_technomancy_influence = 0.02
 	}
 	ai_will_do = {
@@ -4367,7 +4366,7 @@ artifice_invention_wind_invokers = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		morale_damage = 0.125
+		morale_damage = 0.075
 		tec_mechanists_influence = 0.04
 	}
 	ai_will_do = {
@@ -4500,7 +4499,7 @@ artifice_invention_great_processor = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		development_cost = -0.075
+		development_cost = -0.05
 		tec_technomancy_influence = 0.02
 	}
 	ai_will_do = {
@@ -6279,7 +6278,7 @@ artifice_invention_chase_em_rockets = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		backrow_artillery_damage = 0.15
+		backrow_artillery_damage = 0.125
 		tec_mechanists_influence = 0.06
 	}
 	ai_will_do = {
@@ -6730,7 +6729,7 @@ artifice_invention_wonderous_lunchbox = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		development_cost = -0.075
+		development_cost = -0.05
 		land_attrition = -0.15
 		tec_brilliance_influence = 0.04
 	}
