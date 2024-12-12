@@ -83,7 +83,7 @@ verkal_gulan_hero_gate = {
 		}
 		country_modifiers = {
 			yearly_corruption = -0.05
-			inflation_reduction = -0.025
+			inflation_reduction = 0.025
 		}
 		on_upgraded = {
 		}
@@ -103,7 +103,7 @@ verkal_gulan_hero_gate = {
 		}
 		country_modifiers = {
 			yearly_corruption = -0.1
-			inflation_reduction = -0.05
+			inflation_reduction = 0.05
 		}
 		on_upgraded = {
 			owner = {
@@ -134,7 +134,7 @@ verkal_gulan_hero_gate = {
 		}
 		country_modifiers = {
 			yearly_corruption = -0.15
-			inflation_reduction = -0.075
+			inflation_reduction = 0.075
 			monthly_gold_inflation_modifier = -0.5
 		}
 		on_upgraded = {

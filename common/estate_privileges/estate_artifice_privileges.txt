@@ -1396,7 +1396,7 @@ estate_artificers_precursor_weapons = { #Not sure how you want this implemented
 			}
 		}
 		modifier = {
-			allowed_rajput_fraction = 0.2
+			allowed_rajput_fraction = 0.15
 		}
 	}
 	conditional_modifier = {
@@ -1407,7 +1407,7 @@ estate_artificers_precursor_weapons = { #Not sure how you want this implemented
 			}
 		}
 		modifier = {
-			allowed_rajput_fraction = 0.35
+			allowed_rajput_fraction = 0.2
 		}
 	}
 	conditional_modifier = {
@@ -3011,7 +3011,7 @@ artifice_invention_t_wave_transceivers = {
 		#update_artifice_points = yes #is included in the above effect
 	}
 	penalties = {
-		#foo
+		global_trade_power = -0.1
 	}
 	benefits = {
 		artificers_privilege_slots = 1
@@ -3261,7 +3261,7 @@ artifice_invention_artillery_autoloader = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		artillery_power = 0.1
+		artillery_power = 0.075
 		tec_mechanists_influence = 0.06
 	}
 	ai_will_do = {
@@ -3566,8 +3566,7 @@ artifice_invention_prototype_tanks = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		cavalry_fire = 2
-		cavalry_shock = -1
+		cavalry_fire = 1
 		tec_brilliance_influence = 0.04
 	}
 	ai_will_do = {
@@ -3815,7 +3814,7 @@ artifice_invention_magic_missile_deployer = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		shock_damage_received = -0.075
+		shock_damage_received = -0.05
 		tec_technomancy_influence = 0.02
 	}
 	ai_will_do = {
@@ -4243,7 +4242,7 @@ artifice_invention_box_of_holding = {
 		artificers_privilege_slots = 1
 		#bonuses in paper provinces?
 		global_tariffs = 0.1
-		treasure_fleet_income = 0.1
+		treasure_fleet_income = 0.2
 		tec_technomancy_influence = 0.02
 	}
 	ai_will_do = {
@@ -4367,7 +4366,7 @@ artifice_invention_wind_invokers = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		morale_damage = 0.125
+		morale_damage = 0.075
 		tec_mechanists_influence = 0.04
 	}
 	ai_will_do = {
@@ -4500,7 +4499,7 @@ artifice_invention_great_processor = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		development_cost = -0.075
+		development_cost = -0.05
 		tec_technomancy_influence = 0.02
 	}
 	ai_will_do = {
@@ -6279,7 +6278,7 @@ artifice_invention_chase_em_rockets = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		backrow_artillery_damage = 0.15
+		backrow_artillery_damage = 0.125
 		tec_mechanists_influence = 0.06
 	}
 	ai_will_do = {
@@ -6730,7 +6729,7 @@ artifice_invention_wonderous_lunchbox = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		development_cost = -0.075
+		development_cost = -0.05
 		land_attrition = -0.15
 		tec_brilliance_influence = 0.04
 	}
@@ -6860,7 +6859,7 @@ artifice_invention_burrower_arms = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		build_cost = -0.075
+		build_cost = -0.05
 		fort_maintenance_modifier = -0.15
 		tec_mechanists_influence = 0.04
 	}
@@ -7520,7 +7519,7 @@ artifice_invention_prehensile_tail_attachments = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		development_cost = -0.075
+		development_cost = -0.05
 		tec_brilliance_influence = 0.04
 	}
 	ai_will_do = {
@@ -7651,7 +7650,7 @@ artifice_invention_prefabricated_city_constructors = {
 	}
 	benefits = {
 		artificers_privilege_slots = 1
-		development_cost = -0.075
+		development_cost = -0.05
 		tec_mechanists_influence = 0.04
 	}
 	ai_will_do = {
@@ -7781,7 +7780,7 @@ artifice_invention_weather_predicticator = {
 	benefits = {
 		artificers_privilege_slots = 1
 		global_trade_goods_size_modifier = 0.075
-		development_cost = -0.1
+		development_cost = -0.075
 		tec_technomancy_influence = 0.04
 	}
 	ai_will_do = {
@@ -8027,7 +8026,7 @@ artifice_invention_high_velocity_irrigation = {
 	benefits = {
 		artificers_privilege_slots = 1
 		production_efficiency = 0.1
-		development_cost = -0.075
+		development_cost = -0.05
 		tec_mechanists_influence = 0.04
 	}
 	ai_will_do = {
@@ -8126,7 +8125,7 @@ artifice_invention_vg_musket_precursor_edition = {
 			mission_completed = vanbury_guild_mass_production_of_artificer_weapons
 		}
 		modifier = {
-			infantry_power = 0.2
+			infantry_power = 0.15
 			global_regiment_cost = -0.1
 		}
 	}
@@ -8671,7 +8670,7 @@ artifice_invention_feiten_nitroglycerin_rockets = {
 	benefits = {
 		artificers_privilege_slots = 1
 		fire_damage = 0.075
-		artillery_fire = 0.075
+		artillery_fire = 0.05
 	}
 	ai_will_do = {
 		factor = 50
@@ -8730,7 +8729,7 @@ artifice_invention_feiten_nitroglycerin_tnt = {
 	benefits = {
 		artificers_privilege_slots = 1
 		production_efficiency = 0.075
-		development_cost = -0.075
+		development_cost = -0.05
 	}
 	ai_will_do = {
 		factor = 50
@@ -11964,7 +11963,7 @@ artifice_invention_market_mender = {
 	benefits = {
 		artificers_privilege_slots = 1
 		global_tax_modifier = 0.05
-		production_efficiency = 0.05
+		#production_efficiency = 0.05
 		trade_efficiency = 0.05
 		tec_mechanists_influence = 0.02
 	}
@@ -12395,6 +12394,7 @@ artifice_invention_damestear_reactor_megacannon = {
 		#update_artifice_points = yes #is included in the above effect
 	}
 	penalties = {
+		land_maintenance_modifier = 0.1
 	}
 	benefits = {
 		artificers_privilege_slots = 1
