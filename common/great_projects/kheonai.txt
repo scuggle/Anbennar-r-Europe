@@ -354,7 +354,7 @@ warded_city_khe = {
 		country_modifiers = {
 			production_efficiency = 0.1
 			candidate_random_bonus = 1
-			republican_tradition = 0.25
+			republican_tradition = 0.20
 		}
 		on_upgraded = {
 		}
@@ -376,7 +376,7 @@ warded_city_khe = {
 		country_modifiers = {
 			production_efficiency = 0.1
 			candidate_random_bonus = 2
-			republican_tradition = 0.5
+			republican_tradition = 0.3
 		}
 		on_upgraded = {
 		}
