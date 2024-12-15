@@ -126,7 +126,7 @@ port_plentiful_relics_modifier = {
 	all_power_cost = -0.025
 }
 port_university_reforms_modifier = {
-	#estate_artificers_loyalty_modifier = 0.05
+	artificers_loyalty_modifier = 0.05
 	innovativeness_gain = 0.25
 	reform_progress_growth = 0.05
 }
@@ -151,7 +151,7 @@ port_irrigation_canal_modifier = {
 	local_development_cost = -0.025
 	local_state_maintenance_modifier = 0.025
 }
-port_damestear_aquired_modifier = {
+port_damestear_aquired_modifier = { 
 	artificers_loyalty_modifier = 0.025
 	artificers_influence_modifier = 0.05
 	allowed_rajput_fraction = 0.05
