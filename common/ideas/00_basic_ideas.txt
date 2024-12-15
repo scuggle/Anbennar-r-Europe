@@ -950,7 +950,7 @@ diplomatic_ideas = { #international ideas #done
 	category = DIP
 
 	bonus = {
-		province_warscore_cost = -0.15
+		province_warscore_cost = -0.1
 		possible_dip_policy = 1
 	}
 
@@ -1245,7 +1245,7 @@ religious_ideas = { #zealotry ideas
 	}
 	church_attendance_duty = {
 		global_missionary_strength = 0.02
-		institution_spread_from_true_faith = 0.5
+		institution_spread_from_true_faith = 0.75
 	}
 	divine_supremacy = {
 		max_absolutism = 10
@@ -1267,7 +1267,7 @@ religious_ideas = { #zealotry ideas
 		curia_powers_cost = -0.1
 	}
 	religious_tradition = {
-		warscore_cost_vs_other_religion = -0.25
+		warscore_cost_vs_other_religion = -0.15
 		same_religion_advisor_cost = -0.2
 	}
 	inquisition = {
