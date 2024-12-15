@@ -1341,7 +1341,7 @@ focus_inwards = { #Internal Ideas Redo
 	}
 	foc_inw3 = { 
 		global_prosperity_growth = 0.1
-		centralize_state_cost = -0.2
+		parliament_backing_chance = 0.25
 	}
 	foc_inw4 = {
 		monthly_reform_progress = 0.2
@@ -1351,7 +1351,7 @@ focus_inwards = { #Internal Ideas Redo
 		expand_administration_cost = -0.1
 	}
 	foc_inw6 = {
-		parliament_backing_chance = 0.25
+		parliament_effect_duration = 5
 		yearly_absolutism = 1
 	}
 	foc_inw7 = {
