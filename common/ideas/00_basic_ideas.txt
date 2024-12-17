@@ -144,7 +144,7 @@ at_standing = { # Professional
 		leader_cost = -0.10
 	}
 	at_sta6 = {	
-		yearly_army_professionalism = 0.01
+		yearly_army_professionalism = 0.005
 		drill_decay_modifier = -0.1
 	}
 	at_sta7 = {
@@ -172,7 +172,7 @@ adventurer_ideas_vaass = { # Adventurer Ideas
 		global_regiment_cost = -0.1
 	}
 	adven_ide2 = {
-		reinforce_speed = 0.10
+		reinforce_speed = 0.15
 	}
 	adven_ide3 = {
 		infantry_power = 0.1
@@ -185,7 +185,7 @@ adventurer_ideas_vaass = { # Adventurer Ideas
 		possible_condottieri = 0.5
 	}
 	adven_ide6 = {
-		mercenary_manpower = 0.3
+		mercenary_manpower = 0.5
 	}
 	adven_ide7 = {
 		allow_mercenary_drill = yes
@@ -381,12 +381,13 @@ offensive_ideas = { #Grand Plan
 	}
 	national_conscripts = {
 		global_regiment_recruit_speed = -0.15
+		manpower_recovery_speed = 0.05
 	}
 	superior_firepower = {
 		global_manpower_modifier = 0.10
 	}
 	glorious_arms = {
-	    global_regiment_cost = -0.05
+	    global_regiment_cost = -0.1
 	}
 	engineer_corps = {
 		reinforce_speed = 0.10
