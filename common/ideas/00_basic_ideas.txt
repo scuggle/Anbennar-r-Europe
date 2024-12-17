@@ -562,7 +562,7 @@ maritime_ideas = { #Ruler of the Waves Ideas
 			}
 	merchant_marine = {
 		colonists = 1
-		allowed_marine_fraction = 0.25
+		allowed_marine_fraction = 0.2
 		global_sailors = 3000
 		global_sailors_modifier = -0.25
 	}
@@ -1087,7 +1087,7 @@ the_great_game = { #The Great Game
 	}
 	tgg7 = {
 		imperial_authority = 0.10
-		monthly_reform_progress = 0.2
+		monthly_reform_progress = 0.25
 		imperial_mandate = 0.1
 	}
 	
@@ -1185,7 +1185,7 @@ innovativeness_ideas = { #Technocratic Ideas
 	category = ADM
 
 	bonus = {
-		idea_cost = -0.05
+		idea_cost = -0.1
 		possible_adm_policy = 1
 	}
 
@@ -1205,7 +1205,7 @@ innovativeness_ideas = { #Technocratic Ideas
 		reform_progress_growth = 0.15
 	}
 	print_culture = {
-		global_institution_spread = 0.33 
+		global_institution_spread = 0.5
 		artificers_loyalty_modifier = 0.1
 	}
 	optimism = {
@@ -1418,13 +1418,14 @@ administrative_ideas = { #government: monarchy
 		heir_chance = 1
 		legitimacy = 1
 		meritocracy = 0.5
+		merc_maintenance_modifier = -0.1
 	}
 	adaptability = {
 		prestige_decay = -0.01
 		promote_culture_cost = -0.5
 	}
 	benefits_for_mercenaries = {
-		same_culture_advisor_cost = -0.10
+		same_culture_advisor_cost = -0.15
 		culture_conversion_cost = -0.10
 	}
 	bookkeeping = {
@@ -1488,7 +1489,7 @@ plutocracy_ideas = { #government: republic
 		burghers_loyalty_modifier = 0.10
 	}
 	emancipation = {
-		republican_tradition = 0.3
+		republican_tradition = 0.25
 		reelection_cost = -0.1
 	}
 
@@ -1632,7 +1633,7 @@ economic_ideas = { #industrial ideas
 		build_time = -0.15
 	}
 	smithian_economics = {
-		production_efficiency = 0.15
+		production_efficiency = 0.1
 		burghers_influence_modifier = 0.1
 		burghers_loyalty_modifier = 0.1
  	}
