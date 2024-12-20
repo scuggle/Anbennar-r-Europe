@@ -21,10 +21,7 @@ chaingrasper_initial_buff = {
 	colonist_placement_chance = 0.1
 	global_colonial_growth = 25
 }
-escann_nerf_modifier = {
-	administrative_efficiency = -0.05
-	reduced_liberty_desire = -10
-}
+
 
 #world war
 teamleader_modifier = {
