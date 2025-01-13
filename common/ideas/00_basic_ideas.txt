@@ -144,7 +144,7 @@ at_standing = { # Professional
 		leader_cost = -0.10
 	}
 	at_sta6 = {	
-		yearly_army_professionalism = 0.005
+		yearly_army_professionalism = 0.0025
 		drill_decay_modifier = -0.1
 	}
 	at_sta7 = {
@@ -263,7 +263,7 @@ leadership_ideas = { #Leadership
 		leader_land_fire = 1
 	}
 	lead_ide5 = {
-		reserves_organisation = 0.25
+		reserves_organisation = 0.2
 	}
 	lead_ide6 = {
 		army_tradition_decay = -0.005
@@ -338,6 +338,7 @@ quality_ideas = { #Siege
 	}
 	quality_education = {
 		siege_ability = 0.15
+		backrow_artillery_damage = 0.075
 	}
 	finest_of_horses = {
 		shock_damage = 0.075
@@ -347,7 +348,7 @@ quality_ideas = { #Siege
 		land_attrition = -0.2
 	}
 	naval_drill = {
-		assault_fort_ability = 0.33
+		assault_fort_ability = 0.25
 	}
 	copper_bottoms = {
 		leader_siege = 1
@@ -355,7 +356,7 @@ quality_ideas = { #Siege
 	}
 	massed_battery = {
 		artillery_levels_available_vs_fort = 1
-		reinforce_speed = 0.2
+		reinforce_speed = 0.1
 	}
 
 	ai_will_do = {
