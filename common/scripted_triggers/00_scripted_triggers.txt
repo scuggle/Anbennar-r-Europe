@@ -2686,6 +2686,9 @@ is_not_free_merc_company = {
 		NOT = { mercenary_company = merc_sarraka_three }
 		NOT = { mercenary_company = merc_daughters_of_akasik_elite }
 		NOT = { mercenary_company = merc_larankarha_household_cavalry }
+		NOT = { mercenary_company = merc__adventurer_ideas_infantry }
+		NOT = { mercenary_company = merc__adventurer_ideas_cavalry }
+		NOT = { mercenary_company = merc__adventurer_ideas_artillery }
 	}
 }
 

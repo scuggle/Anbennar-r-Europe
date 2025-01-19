@@ -157,6 +157,56 @@ merc__local_independent_army_monstrous = {		#Monstrous Horde
     # No home province means local mercenary company
 }
 
+merc__adventurer_ideas_infantry = {		#Infantry company
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 0
+    cost_modifier = 1
+    trigger = {
+		has_idea = adven_ide7
+		NOT = { has_country_modifier = centaur_military }
+    }
+	min_size = 6
+	max_size = 40
+    # No home province means local mercenary company
+}
+
+merc__adventurer_ideas_cavalry = {		#Cavalry company
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+    regiments_per_development = 0.05
+    cavalry_weight = 1
+    artillery_weight = 0
+    cost_modifier = 1
+    trigger = {
+		has_idea = adven_ide7
+		NOT = { has_country_modifier = centaur_military }
+    }
+	modifier = {
+		cav_to_inf_ratio = 1
+	}
+	min_size = 6
+	max_size = 20
+    # No home province means local mercenary company
+}
+
+merc__adventurer_ideas_artillery = {		#Artillery company
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+    regiments_per_development = 0.025
+    cavalry_weight = 0
+    artillery_weight = 1
+    cavalry_cap = 0
+    cost_modifier = 1
+    trigger = {
+		has_idea = adven_ide7
+		NOT = { has_country_modifier = centaur_military }
+    }
+	min_size = 3
+	max_size = 20
+    # No home province means local mercenary company
+}
+
 # #Escanni Remigrants
 # merc_escanni_remigrants = {
     # regiments_per_development = 0.05

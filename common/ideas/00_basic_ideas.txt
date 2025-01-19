@@ -51,19 +51,20 @@ aristocracy_ideas = { # Cavalry/Shock
 
 	bonus = {
 		cavalry_power = 0.1
-		infantry_power = 0.05
+		infantry_power = 0.1
 		possible_mil_policy = 1
 	}
 	
 	noble_knights = {
 		army_tradition = 0.5
+		leader_cost = -0.1
 	}
 	military_traditions = {
 		movement_speed = 0.1
 	}
 	local_nobility = {
 		shock_damage = 0.15
-		global_regiment_cost = -0.05
+		global_regiment_cost = -0.1
 	}
 	serfdom = { #the serfs dont know how to fire with artillery
 		artillery_shock = 0.5
@@ -189,6 +190,7 @@ adventurer_ideas_vaass = { # Adventurer Ideas
 	}
 	adven_ide7 = {
 		allow_mercenary_drill = yes
+		#unlocks special merc units
 	}
 	ai_will_do = {
 		factor = 0.4
